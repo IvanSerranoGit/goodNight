@@ -1,22 +1,29 @@
+
 .app-container_head{
     width: 100%;
     height: 100%;
+    max-width: 375px;
     background: linear-gradient(188deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
     position: absolute;
     color: white;
     display: flex;
     align-items: center;
+    object-fit: cover;
+      object-position: center center;
 }
 .container {
+    overflow-x: hidden;
     padding: 0;
-    width: 428px;
+    max-width: 375px;
+    width: 375px;
     height: 926px;
     border-radius: 30px;
     background: linear-gradient(to bottom, #1062aa, #040f50);
     box-shadow: 10px 10px 33px 1px rgba(95,95,95,0.61);
     -webkit-box-shadow: 10px 10px 33px 1px rgba(95,95,95,0.61);
     -moz-box-shadow: 10px 10px 33px 1px rgba(95,95,95,0.61);
-    
+    object-fit: cover;
+    object-position: center center;  
 }
 
 .form-check-input {
