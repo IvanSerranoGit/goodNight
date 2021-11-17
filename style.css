@@ -1,0 +1,144 @@
+.app-container_head{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(188deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    position: absolute;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.container {
+    padding: 0;
+    width: 428px;
+    height: 926px;
+    border-radius: 30px;
+    background: linear-gradient(to bottom, #1062aa, #040f50);
+    box-shadow: 10px 10px 33px 1px rgba(95,95,95,0.61);
+    -webkit-box-shadow: 10px 10px 33px 1px rgba(95,95,95,0.61);
+    -moz-box-shadow: 10px 10px 33px 1px rgba(95,95,95,0.61);
+    
+}
+
+.form-check-input {
+    background-color: #074114;
+    border-color: #074114;
+}
+
+.form-switch .form-check-input {
+    width: 3em;
+    height: 1.5em;
+}
+
+.form-check-input:checked {
+    background-color: #00E831;
+    border-color: #00E831;
+}
+
+.background-container {
+    width: 100%;
+    height: 100%;
+}
+
+.title-container {
+    margin-left: 52px;
+    margin-top: 97px;
+    position: absolute;
+}
+
+.actvities-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.actvities-container h3 {
+    margin-left: 52px;
+    margin-top: 40px;
+}
+
+.actvities-container .sqr {
+    background-color: #188EC9;
+    width: 60px;
+    height: 50px;
+    border-radius: 10px 0 0 10px;
+    margin-top: 35px;
+}
+.actvities-container .sqr:hover{
+    background-color: #035d8a;
+
+}
+
+.actvities-container .sqr .plus {
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    margin-left: 19px;
+    margin-top: -8px;
+}
+
+.app-container {
+    background-image: url(./luna-01.svg);
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.items {
+    width: 100%;
+    padding: 0;
+}
+
+.activitie-items {
+    margin-top: 20px;
+    display: flex;
+}
+
+.activitie-item {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.activitie-item img {
+    width: 45px;
+    height: 45px;
+}
+
+.description-container {
+    display: inline-flex;
+}
+
+.description-container h3 {
+    font-size: 16px;
+}
+
+.description-container_title {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 18px;
+}
+
+.description-container small {
+    font-size: 12px;
+}
+
+.clock-container h3 {
+    font-size: 16px;
+
+}
+
+.footer {
+    height: 80px;
+    width: 100%;
+    background-color: #030d3a;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px ;
+    margin-top: -80px;
+}
+
+.item img {
+    height: 30px;
+}
